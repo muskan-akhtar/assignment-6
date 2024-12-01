@@ -3,63 +3,32 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="flex py-[80px] justify-between gap-[19.4px]">
-      <h1 className="text-[24px] font-bold">
-        Trusted by 2000+ companies <br /> worldwide.
-      </h1>
-      <div className="flex justify-between gap-4 py-[8.74]">
-        <div className="w-1/6">
-          <Image
-            src="/images/logo1-.png"
-            alt="Image 1"
-            width={123.8}
-            height={38.52}
-            className="object-cover"
-          />
+    <div>
+      <div className="md:flex items-center justify-between flex-col-1">
+        <div className="lg:pr-[60px] lg:pl-[80px] flex flex-col gap-6 md:w-1/2 lg:py-[141px] py-[64px] px-6 w-[428px] h-[390px]">
+          <h1 className="text-[40px] sm:text-[56px] font-bold">
+            Learn new skills online with ease
+          </h1>
+          <p className="text-[18px] sm:text-[18px]">
+            Discover a wide range of courses covering a variety of subjects,
+            taught by expert instructors.
+          </p>
+          <div className="flex gap-[16px] pt-4">
+            <button className="md:py-2 py-3 md:px-5 px-6 bg-black text-white rounded-[5px]">
+              Start learning now
+            </button>
+            <button className="py-2 px-5 border-solid border-[1px] border-black rounded-[5px]">
+              Explore Courses
+            </button>
+          </div>
         </div>
-        <div className="w-1/6">
+
+        <div className="lg:w-1/2 w-full">
           <Image
-            src="/images/logo2-.png"
-            alt="Image 2"
-            width={123.8}
-            height={38.52}
-            className="object-cover"
-          />
-        </div>
-        <div className="w-1/6">
-          <Image
-            src="/images/logo3-.png"
-            alt="Image 3"
-            width={123.8}
-            height={38.52}
-            className="object-cover"
-          />
-        </div>
-        <div className="w-1/6">
-          <Image
-            src="/images/logo-4.png"
-            alt="Image 4"
-            width={123.8}
-            height={38.52}
-            className="object-cover"
-          />
-        </div>
-        <div className="w-1/6">
-          <Image
-            src="/images/logo5-.png"
-            alt="Image 5"
-            width={123.8}
-            height={38.52}
-            className="object-cover"
-          />
-        </div>
-        <div className="w-1/6">
-          <Image
-            src="/images/logo6-.png"
-            alt="Image 6"
-            width={123.8}
-            height={38.52}
-            className="object-cover"
+            src="/images/tablet2.jpeg"
+            alt="Tablet image"
+            width={640}
+            height={900}
           />
         </div>
       </div>
