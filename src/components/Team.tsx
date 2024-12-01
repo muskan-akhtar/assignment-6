@@ -5,7 +5,7 @@ import { FaDribbble, FaLinkedin, FaTwitter } from "react-icons/fa";
 function Team() {
   return (
     <div>
-      <div className="flex flex-col items-center justify-between py-[112px] px-[64px] gap-[60px]">
+      <div className="flex flex-col items-center justify-between py-[112px] px-[64px] gap-[60px] bg-[#FFFFFF]">
         <div className="flex w-full flex-col justify-between items-center gap-6">
           <h1 className="text-2xl font-bold text-[56px]">Our team</h1>
           <p className="text-[18px] mt-4 text-base text-center">

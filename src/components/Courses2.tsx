@@ -4,7 +4,7 @@ import Image from "next/image";
 function Courses() {
   return (
     <div>
-      <div className="flex flex-col items-center justify-between md:py-[112px] md:px-[64px] md:gap-[60px] gap-[64px] m-3">
+      <div className="flex flex-col items-center justify-between md:py-[112px] md:px-[64px] md:gap-[60px] gap-[64px] m-3 bg-[#FFFFFF]">
         <div className="flex w-full flex-col justify-between items-center gap-6">
           <h1 className="text-2xl font-bold md:text-[56px] text-[32px]">
             Courses
@@ -25,7 +25,7 @@ function Courses() {
         </div>
 
         <div className="md:grid md:grid-cols-3 grid-cols-1 gap-[64px] md:gap-4">
-          <div className="rounded-px flex flex-col gap-6">
+          <div className="rounded-px flex flex-col gap-6 bg-[#FFFFFF]">
             <Image
               src="/images/uiux.png"
               alt="uiux"
@@ -58,7 +58,7 @@ function Courses() {
             </div>
           </div>
 
-          <div className="rounded-px flex flex-col gap-6">
+          <div className="rounded-px flex flex-col gap-6 bg-[#FFFFFF]">
             <Image
               src="/images/coding2.png"
               alt="uiux"
@@ -91,7 +91,7 @@ function Courses() {
             </div>
           </div>
 
-          <div className="rounded-px flex flex-col gap-6">
+          <div className="rounded-px flex flex-col gap-6 bg-[#FFFFFF]">
             <Image
               src="/images/graph.png"
               alt="uiux"
@@ -124,7 +124,7 @@ function Courses() {
             </div>
           </div>
 
-          <div className="rounded-px flex-col gap-6 hidden md:flex">
+          <div className="rounded-px flex-col gap-6 hidden md:flex bg-[#FFFFFF]">
             <Image
               src="/images/Image1.png"
               alt="uiux"
@@ -156,7 +156,7 @@ function Courses() {
             </div>
           </div>
 
-          <div className="rounded-px flex-col gap-6 hidden md:flex">
+          <div className="rounded-px flex-col gap-6 hidden md:flex bg-[#FFFFFF]">
             <Image
               src="/images/Image2.png"
               alt="uiux"
@@ -188,7 +188,7 @@ function Courses() {
             </div>
           </div>
 
-          <div className="rounded-px flex-col gap-6 hidden md:flex">
+          <div className="rounded-px flex-col gap-6 hidden md:flex bg-[#FFFFFF]">
             <Image
               src="/images/Image3.png"
               alt="uiux"

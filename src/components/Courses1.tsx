@@ -4,7 +4,7 @@ import Image from "next/image";
 function Courses1() {
   return (
     <div>
-      <div className="flex justify-center w-full">
+      <div className="flex justify-center w-full bg-[#FFFFFF]">
         <div className="flex flex-col gap-[24px] py-[112px] px-[64px]">
           <h1 className="text-[32px] md:text-[48px] font-bold text-center md:text-left w-[386px] md:w-[768px] h-[84px] md:h-[58px]">
             Explore Courses By Category
