@@ -29,11 +29,11 @@ function Testimonials() {
               </div>
               <div className="bg-white text-[18px] flex flex-col gap-6">
                 <p>
-                  "Lorem ipsum dolor sit amet, <br />
+                  &quot;Lorem ipsum dolor sit amet, <br />
                   consectetur adipiscing elit. <br />
                   Suspendisse varius enim in eros <br />
                   elementum tristique. Duis cursus, mi <br />
-                  quis viverra ornare."
+                  quis viverra ornare.&quot;
                 </p>
                 <div className="flex flex-row gap-5">
                   <div className="flex flex-row gap-5">
@@ -63,11 +63,11 @@ function Testimonials() {
               </div>
               <div className="bg-white text-[18px] flex flex-col gap-6">
                 <p>
-                  "Lorem ipsum dolor sit amet, <br />
+                  &quot;Lorem ipsum dolor sit amet, <br />
                   consectetur adipiscing elit. <br />
                   Suspendisse varius enim in eros <br />
                   elementum tristique. Duis cursus, mi <br />
-                  quis viverra ornare."
+                  quis viverra ornare.&quot;
                 </p>
                 <div className="flex flex-row gap-5">
                   <div className="flex flex-row gap-5">
@@ -97,11 +97,11 @@ function Testimonials() {
               </div>
               <div className="bg-white text-[18px] flex flex-col gap-6">
                 <p>
-                  "Lorem ipsum dolor sit amet, <br />
+                  &quot;Lorem ipsum dolor sit amet, <br />
                   consectetur adipiscing elit. <br />
                   Suspendisse varius enim in eros <br />
                   elementum tristique. Duis cursus, mi <br />
-                  quis viverra ornare."
+                  quis viverra ornare.&quot;
                 </p>
                 <div className="flex flex-row gap-5">
                   <div className="flex flex-row gap-5">
